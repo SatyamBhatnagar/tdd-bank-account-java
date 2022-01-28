@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class AccountTest {
 
     @Test
-	@Disabled
+
     public void initiateAccount_shouldHaveZeroBalance() {
         assertThat(emptyAccount().balance()).isEqualTo(0);
     }
