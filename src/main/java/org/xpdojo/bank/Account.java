@@ -5,4 +5,8 @@ public class Account {
     public int balance() {
         return amount;
     }
+
+    public void addAmount(int i) {
+        amount = i;
+    }
 }
