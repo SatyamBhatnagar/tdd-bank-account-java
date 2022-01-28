@@ -11,6 +11,6 @@ public class Account {
     }
 
     public void withdraw(int i) {
-        amount = i;
+        amount -= i;
     }
 }
