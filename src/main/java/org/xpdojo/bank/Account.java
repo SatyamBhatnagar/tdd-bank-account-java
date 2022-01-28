@@ -6,7 +6,7 @@ public class Account {
         return amount;
     }
 
-    public void addAmount(int i) {
+    public void deposit(int i) {
         amount += i;
     }
 }
