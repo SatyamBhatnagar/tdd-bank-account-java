@@ -9,11 +9,11 @@ public class AccountTest {
 
     @Test
 	@Disabled
-    public void deposit() {
-        Account account = new Account();
+    public void initiateAccount_shouldHaveZeroBalance() {
+        assertThat(emptyAccount().balance()).isEqualTo(0);
+    }
 
-        assertThat(account.balance()).isEqualTo(0);
-
-
+    private Account emptyAccount() {
+        return new Account();
     }
 }
