@@ -7,6 +7,6 @@ public class Account {
     }
 
     public void addAmount(int i) {
-        amount = i;
+        amount += i;
     }
 }
